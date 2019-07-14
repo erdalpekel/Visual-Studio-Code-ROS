@@ -9,6 +9,7 @@
             "command": "catkin_make",
             "args": [
                 "-j$(nproc)",
+                "-DFranka_DIR:PATH=${workspaceFolder}/dependencies/libfranka/build",
                 "-DCMAKE_BUILD_TYPE=Release",
                 "-DCMAKE_EXPORT_COMPILE_COMMANDS=1",
                 "-DCMAKE_CXX_STANDARD=14"
