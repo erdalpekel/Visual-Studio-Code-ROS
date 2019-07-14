@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.shellArgs.linux": [
+        "-l",
+        "-i"
+    ]
+}
