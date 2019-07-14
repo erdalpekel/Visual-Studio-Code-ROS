@@ -29,6 +29,16 @@
                 "kind": "test",
                 "isDefault": true
             }
+        },
+        {
+            "label": "panda_simulation docker",
+            "type": "shell",
+            "command": "roslaunch panda_simulation simulation.launch gui:=false",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            }
         }
     ]
 }
